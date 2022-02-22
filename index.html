@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Jonny's Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon-32x32.png"/>
+    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css"/>
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <!--
+    The Town
+    https://templatemo.com/tm-525-the-town
+    -->
+  </head>
+  <body>    
+    <!-- Home -->
+    <section id="home" class="text-white tm-font-big tm-parallax">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
+        <div class="container">   
+          <div class="tm-next">
+            <a href="#home" class="navbar-brand">Jonny K. Tran</a>
+          </div>             
+            
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link tm-nav-link" href="#introduction">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tm-nav-link" href="#projects">My Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tm-nav-link" href="#contact">Contact Me</a>
+              </li>                    
+            </ul>
+          </div>        
+        </div>
+      </nav>
+      
+      <div class="text-center tm-home-text-container">
+        <div class="tm-home-text-container-inner">
+          <h1 class="tm-home-title"><span class = typing></span></h1>
+          <h2>Software Developer</h2>
+          <p class="tm-home-subtitle">UCSD Regents Scholar</p>
+        </div>        
+      </div>
+
+      <div class="tm-next tm-intro-next">
+        <a href="#introduction" class="text-center tm-down-arrow-link">
+          <i class="fas fa-3x fa-caret-down tm-down-arrow"></i>
+        </a>
+      </div>      
+    </section>
+
+    <!-- Introduction -->
+    <section id="introduction" class="tm-section-pad-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="img/profile-pic.jpg" alt="Image" class="img-fluid tm-intro-img"/>
+          </div>
+          <div class="col-lg-6">
+            <div class="tm-intro-text-container">
+              <h2 class="tm-text-primary mb-4 tm-section-title">About Me</h2>
+              <p class="mb-4 tm-intro-text">
+                Hello! I'm a third-year student at UC San Diego studying Computer Science with a minor in Cognitive Science.
+              </p>
+              <p class="mb-5 tm-intro-text">
+                When I'm not programming, I enjoy playing basketball and tennis with my friends. I also like to listen to music, play the guitar, and cruise around on my pennyboard in my free time.
+              </p>
+              <div class="tm-next">
+                <a href="img/jonny-k-tran-resume.pdf" target="_blank" class="tm-intro-text tm-btn-primary">R&eacute;sum&eacute;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row tm-section-pad-top">
+          <div class="col-lg-4">
+            <i class="fas fa-4x fa-laptop text-center tm-icon"></i>
+            <h3 class="text-center tm-text-primary mb-4">Academic Tutor</h3>
+            <p style="text-align:center;">
+              As a CSE tutor at UCSD, I guide students as they learn fundamental programming concepts and provide them with the tools and knowledge they need to become self-sufficient programmers capable of succeeding on their own.
+            </p>
+          </div>
+        
+          <div class="col-lg-4 mt-5 mt-lg-0">
+            <i class="fas fa-4x fa-chalkboard-teacher text-center tm-icon"></i>
+            <h3 class="text-center tm-text-primary mb-4">Programming Languages</h3>
+            <p style="text-align:center;">
+              Most of my programming experience is with <b>Python</b> and <b>Java</b>, but I'm comfortable programming in <b>C</b>, <b>C++</b>, and <b>C#</b> as well. Furthermore, I'm also familiar with <b>HTML/CSS</b>, <b>JavaScript</b>, and <b>SQL</b>.
+            </p>
+          </div>
+          
+          <div class="col-lg-4 mt-5 mt-lg-0">
+            <i class="fas fa-4x fa-handshake text-center tm-icon"></i>
+            <h3 class="text-center tm-text-primary mb-4">Open Source Contributor</h3>
+            <p style="text-align:center;">
+              One of my favorite aspects of programming is collaborating with other programmers. Contributing to open source projects gives me an opportunity to work with others to create meaningful software.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="tm-section-pad-top">
+      <div class="container tm-container-gallery">
+        <div class="row">
+          <div class="text-center col-12">
+            <h2 class="tm-text-primary tm-section-title mb-4">My Projects</h2>
+            <p class="mx-auto tm-projects-description">
+              <i>Click on a project to learn more!</i>
+            </p>
+          </div>            
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="mx-auto tm-gallery-container">
+              <div class="grid tm-gallery">
+                <a href="https://devildishes.netlify.app/" target="_blank">
+                  <figure class="effect-honey tm-gallery-item">
+                    <img src="img/devil-dishes.jpg" alt="Image" class="img-fluid">
+                    <figcaption>
+                      <h3><i id="devil-text">Devil <span>Dishes</span></i></h3>
+                    </figcaption>
+                  </figure>
+                </a>
+                <a href="https://wlnguyen.pythonanywhere.com/" target="_blank">
+                  <figure class="effect-honey tm-gallery-item">
+                    <img src="img/pixelchu.jpg" alt="Image" class="img-fluid">
+                    <figcaption>
+                      <h3><i id="pixelator-text">Photo <span>Pixelator</span></i></h3>
+                    </figcaption>
+                  </figure>
+                </a>
+                <a href="https://github.com/zulip/zulip/commits?author=jonathanktran" target="_blank">
+                  <figure class="effect-honey tm-gallery-item">
+                    <img src="img/zulip.jpg" alt="Image" class="img-fluid">
+                    <figcaption>
+                      <h3><i id="zulip-text">Zulip <span>Contributor</span></i></h3>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>                
+          </div>        
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="tm-section-pad-top tm-parallax-2">
+      <div class="container tm-container-contact">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="mb-4 tm-section-title">Contact Me</h2>
+            <div class="mb-5 tm-underline">
+              <div class="tm-underline-inner"></div>
+            </div>
+            <p class="mb-5">
+              Thanks so much for checking out my website! If you have any questions or if you just want to chat, please feel free to reach out to me by phone or email.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+            <a href="tel:1-714-905-4296" class="tm-contact-item-link">
+              <i class="fas fa-3x fa-phone mr-4"></i>
+              <span class="mb-0">Cell Phone<br>
+                714-905-4296
+              </span>
+            </a>              
+          </div>
+          <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+            <a href="mailto:jonnyktran@gmail.com" class="tm-contact-item-link">
+              <i class="fas fa-3x fa-envelope mr-4"></i>
+              <span class="mb-0">Email<br>
+                jonnyktran@gmail.com
+              </span>
+            </a>              
+          </div>
+          <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+            <a href="https://github.com/jonathanktran" target="_blank" class="tm-contact-item-link">
+              <i class="fab fa-3x fa-github mr-4"></i>
+              <span class="mb-0">GitHub<br>
+                github.com/jonathanktran
+              </span>
+            </a>              
+          </div>
+          <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+            <a href="https://linkedin.com/in/jonathanktran" target="_blank" class="tm-contact-item-link">
+              <i class="fab fa-3x fa-linkedin-in mr-4"></i>
+              <span class="mb-0">LinkedIn<br>
+                linkedin.com/in/jonathanktran
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <footer class="text-center small tm-footer">
+        <p class="mb-0">
+          Copyright &copy; 2022 Jonny K. Tran - Design by <a rel="nofollow" href="https://templatemo.com" target="_blank" class="tm-footer-link">TemplateMo</a>
+        </p>
+      </footer>
+    </section>
+    <script src="js/jquery-1.9.1.min.js"></script>     
+    <script src="slick/slick.min.js"></script>
+    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>     
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/main.js"></script>
+  </body>
+</html>
